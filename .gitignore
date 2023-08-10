@@ -1,0 +1,38 @@
+# Visual Studio Code
+.vscode/
+
+# Node.js
+node_modules/
+
+# Compiled output
+dist/
+build/
+
+# Environment files
+.env
+
+# IDE-specific files
+.idea/
+*.sln
+*.suo
+
+# Chrome extension build artifacts
+*.crx
+*.pem
+
+# Logs
+*.log
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+
+# Temporary files
+*~
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
