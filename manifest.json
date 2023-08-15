@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Time Spent Per Tab",
+    "name": "Browselytics",
     "version": "1.0",
     "icons": {
         "16": "icons/icon16.png",
@@ -17,9 +17,9 @@
     "permissions": [
         "tabs",
         "history",
-        "tabGroups"
-
+        "activeTab"   
     ],
+    
     "background": {
         "service_worker": "background.js"
     }
